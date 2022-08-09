@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&family=Red+Hat+Display&family=Red+Hat+Mono&family=Red+Hat+Text&display=swap');
+
+:root{
+    --titulo: #012e40;
+    --subtitulo: #024959;
+    --sombra: #026773;
+    --bg-banner: #3ca6a6;
+    --fundo01: #f2e3d5;
+    --bg-btn: #f23030;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    text-decoration: none;
+    padding: 20px;
+}
+
+.logo h1{
+    font-weight: 500;
+    color: var(--sombra);
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-menu ul li{
+    display: inline-block;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.nav-menu ul li a{
+    font-weight: 400;
+    color: var(--subtitulo);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.nav-menu ul li a:hover{
+    background-color: var(--bg-banner);
+    color: #FFF;
+    border-radius: 10px;
+    font-weight: 400;
+    transition: 1ms;
+}
+
+#banner{
+    background-color: var(--bg-banner);
+    margin: 0 20px;
+}
+
+.titulo-banner{
+    font-weight: 500;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: 150px;
+    padding-bottom: 20px;
+}
+
+#txtBanner p{
+    font-size: 16px;
+    color: var(--subtitulo);
+    padding-bottom: 20px;
+}
+
+.btn-banner{
+    background-color: var(--bg-btn) !important;
+    border-radius: 10px;
+    padding: 15px 50px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-banner:hover{
+    color: #FFF;
+    background-color: var(--subtitulo) !important;
+    transition: 1ms;
+}
+
+#imgBanner img{
+    width: 400px;
+    transform: scaleX(-1);
+    margin-left: 100px;
+}
+
+#itensBanner{
+    margin-top: 10px;
+    padding: 30px;
+    height: auto;
+}
+
+#itensBanner img{
+    width: 2rem;
+ 
+
+}
+
+#itensBanner span{
+    font-weight: 500;
+    color: var(--sombra);
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.titulo-section{
+    color: var(--sombra);
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+}
+
