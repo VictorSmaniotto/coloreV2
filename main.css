@@ -122,4 +122,30 @@
     text-align: center;
     margin-top: 50px;
 }
+/*----------------Cards-----------*/
+.cards{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
+.img-card{
+    text-align: center;
+}
+
+.img-card img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.info-card{
+    text-align: center;
+}
+
+.info-card h2{
+    font-size: 1.5rem;
+    color: var(--sombra);
+}
+
+.info-card p{
+    color: var(--subtitulo);
+}
