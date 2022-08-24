@@ -49,7 +49,7 @@
 }
 
 .nav-menu ul li a:hover{
-    background-color: var(--bg-banner);
+    background-color: var(--bg-btn);
     color: #FFF;
     border-radius: 10px;
     font-weight: 400;
